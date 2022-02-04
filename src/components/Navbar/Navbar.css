@@ -85,11 +85,11 @@
     right: 20px;
 }
 
-.app__navbar-smallscreen_links {
+.app__navbar-smallscreen-links {
     list-style: none;
 }
 
-.app__navbar-smallscreen_links li{
+.app__navbar-smallscreen-links li{
     margin: 2rem;
     cursor: pointer;
     color: var(--color-golden);
@@ -98,7 +98,7 @@
     font-family: var(--font-base);
 }
 
-.app__navbar-smallscreen_links li:hover{
+.app__navbar-smallscreen-inks li:hover{
     color: var(--color-white);
 }
 
@@ -109,7 +109,8 @@
 }
 
 @media screen and (max-width: 1150px){
-    .app__navbar_links {
+    .app__navbar-links,
+    .app__navbar-login {
         display: none;
     }
 
